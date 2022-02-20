@@ -102,6 +102,23 @@ Ara, dintre del arxiu my.cnf posarem el nom d’usuari i la contrasenya per tal 
 
 ![image](https://user-images.githubusercontent.com/61474765/154858917-7470ac2d-c281-453a-b628-cf8104f4941b.png)
 
+***6.	El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple?
+Important: No realitzis els canvis. Només indica els passos que faries.***
+
+Haurem de entrar dintre del arxiu my.cnf i sota de on posa [mysqld] posarem port = i el numero de port que vulguem posar.
+![image](https://user-images.githubusercontent.com/61474765/154859472-d1562d9a-6783-46c7-847b-2c02d2b9fd4c.png)
+
+Un cop guardat, farem un systemctl restart mysqld.
+
+![image](https://user-images.githubusercontent.com/61474765/154859486-033a3779-3ca1-4fdd-a228-76f5a1864daa.png)
+
+***7.	Ensenya al professor que us podeu connectar al SGBD.***
+
+![image](https://user-images.githubusercontent.com/61474765/154859509-9f21a321-5b7f-4a77-8b06-feb4141e9f74.png)
+
+
+
+
 
 
 
